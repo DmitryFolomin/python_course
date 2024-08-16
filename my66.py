@@ -1,0 +1,11 @@
+a = input()
+a = a.replace('a', '')
+a = a.replace('o', '')
+a = a.replace('y', '')
+a = a.replace('e', '')
+a = a.replace('u', '')
+a = a.replace('i', '')
+a = a.lower()
+a = a.replace('', '.')
+a = a[0:-1]
+print(a)
